@@ -1,0 +1,13 @@
+target/
+.idea/
+*.iml
+*.log
+.classpath
+.project
+.settings/
+.vscode/
+
+# Selenium/Chrome artifacts (jika ada)
+*.png
+*.dumpstream
+
