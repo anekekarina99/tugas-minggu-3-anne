@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Sales Automation Test">
+    <classes>
+      <class name="juaracoding.anne.tests.LoginTest"/>
+      <class name="juaracoding.anne.tests.AddToCartTest"/>
+      <class name="juaracoding.anne.tests.CheckoutTest"/>
+    </classes>
+  </test>
+</suite>

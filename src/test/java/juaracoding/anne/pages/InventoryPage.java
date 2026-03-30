@@ -129,5 +129,10 @@ public class InventoryPage {
         wait.until(ExpectedConditions.elementToBeClickable(continueShoppingButton)).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(inventoryContainer));
     }
+
+    public CartPage goToCart() {
+        wait.until(ExpectedConditions.elementToBeClickable(cartLink)).click();
+        return new CartPage(driver, wait);
+    }
 }
 
